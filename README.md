@@ -67,3 +67,7 @@ This project provides a lightweight WSL-based automation example that:
 During testing on shelbynet, uploads could sometimes return an error in the CLI or web interface while the blob later appeared in the Shelby web interface.
 
 Because of that behavior, this workflow is designed to avoid repeated retries for the same file.
+## Feedback submitted to Shelby
+
+Observed upload behavior has also been reported here:
+https://github.com/shelby/feedback/issues/31
