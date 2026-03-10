@@ -71,3 +71,7 @@ Because of that behavior, this workflow is designed to avoid repeated retries fo
 
 Observed upload behavior has also been reported here:
 https://github.com/shelby/feedback/issues/31
+## Setup guide
+
+Detailed setup notes are available here:
+docs/SETUP.md
