@@ -50,3 +50,20 @@ tail -n 40 /mnt/c/testShelby/logs/upload_one_shelby.log
 ## Status
 
 This project was created as a practical automation example for Shelby CLI users who want a lightweight scheduled upload workflow on WSL.
+## Why this project exists
+
+Shelby CLI is useful, but some users may want a simple scheduled workflow instead of manually creating and uploading files one by one.
+
+This project provides a lightweight WSL-based automation example that:
+
+- generates text files automatically
+- fills them with meaningful web3-related content
+- uploads them on a schedule
+- avoids duplicate retries by moving attempted files into a processed folder
+- keeps logs for easier monitoring
+
+## Known behavior observed during testing
+
+During testing on shelbynet, uploads could sometimes return an error in the CLI or web interface while the blob later appeared in the Shelby web interface.
+
+Because of that behavior, this workflow is designed to avoid repeated retries for the same file.
