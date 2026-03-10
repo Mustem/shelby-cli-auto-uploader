@@ -1,0 +1,5 @@
+logs/
+incoming/
+processed/
+counter.txt
+*.log
